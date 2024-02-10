@@ -1,0 +1,45 @@
+# Compiled Python modules
+*.pyo
+*.pyc
+
+# SQLite
+*.db
+*.s3db
+*.sqlite3
+
+# ignore virtualenv
+.venv
+.elasticbeanstalk/config.yml
+log/*
+
+*.pyc
+__pycache__/
+*.cpython-36.pyc
+
+.env
+update-env.py
+/venv
+
+
+*.log
+*.retry
+
+# Static files in Vagrant environment
+/static
+/django_extensions
+/debug_toolbar
+
+#vscode ide
+.vscode
+
+/server/*/migrations/*
+!/server/*/migrations/__init__.py
+/server/core/migrations
+/server/core/test/__init__.py
+/server/core/api/__init__.py
+
+!.gitignore
+!.travis.yml
+
+*/migrations/*
+!*/migrations/__init__.py
